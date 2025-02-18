@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudTask", "CrudTask\CrudTask.csproj", "{923C5AE7-4742-4DC1-8D10-6AF97871A760}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiraDemo", "..\RiraDemo\RiraDemo.csproj", "{CE6676CE-983E-4C07-957F-B05074065FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClient", "..\MyClient\MyClient.csproj", "{B5019688-CC90-48C7-B09A-6799238108CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{923C5AE7-4742-4DC1-8D10-6AF97871A760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{923C5AE7-4742-4DC1-8D10-6AF97871A760}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{923C5AE7-4742-4DC1-8D10-6AF97871A760}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{923C5AE7-4742-4DC1-8D10-6AF97871A760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6676CE-983E-4C07-957F-B05074065FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6676CE-983E-4C07-957F-B05074065FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6676CE-983E-4C07-957F-B05074065FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6676CE-983E-4C07-957F-B05074065FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5019688-CC90-48C7-B09A-6799238108CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5019688-CC90-48C7-B09A-6799238108CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5019688-CC90-48C7-B09A-6799238108CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5019688-CC90-48C7-B09A-6799238108CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
