@@ -1,0 +1,38 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "RiraDemo";
+
+package demo;
+
+service MyService {
+  rpc Get (PagingModel) returns (GetResultModel);
+  rpc Create (MyModel) returns (MyModel);
+  rpc Edit (MyModel) returns (MyModel);
+  rpc Delete (Int32Model) returns (Empty);
+}
+
+message PagingModel {
+  int32 pageNumber = 1;
+  int32 pageSize = 2;
+}
+
+message MyModel {
+  int32 id = 1;
+  string firstName = 2;
+  string lastName = 3;
+  int64 nationalCode = 4;
+  google.protobuf.Timestamp birthDate = 5;
+}
+
+message GetResultModel {
+	repeated MyModel models = 1;
+}
+
+message Int32Model {
+	int32 number = 1;
+}
+
+message Empty {
+
+}
